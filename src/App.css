@@ -1,7 +1,12 @@
 .App {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+   background-color: #fdcb6e;
+  /*color: white; */
 }
-
+.sidebar-transition {
+  transition: all 0.3s ease;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +41,5 @@
     transform: rotate(360deg);
   }
 }
+
+
